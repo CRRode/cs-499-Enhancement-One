@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenGLSample.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\shader.h(57,34): warning C4101: 'e': unreferenced local variable
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(294,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(331,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(332,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(339,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(340,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(347,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(348,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(355,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(356,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(364,51): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(365,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(226,37): warning C4101: 'planeVAO2': unreferenced local variable
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(881,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(882,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(886,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(887,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(889,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(890,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\OpenGLSample\Source.cpp(899,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  OpenGLSample.vcxproj -> C:\Users\crode\Downloads\OpenGLSample22\OpenGLSample\Debug\OpenGL project Rode.exe
