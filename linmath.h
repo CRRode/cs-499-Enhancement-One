@@ -1,3 +1,7 @@
+//Christopher Rode
+//Date: 3/31/24
+//version 2.1
+//this code is responsible for the math inside the program.
 #ifndef LINMATH_H
 #define LINMATH_H
 
