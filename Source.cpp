@@ -479,7 +479,11 @@ int main()
 		C.render();
 
 
-
+/* Modified 3/31/2024  
+Created cylinder 3 - 14 
+Three cylinders are used to create each leg of the desk.  
+This was added to enhance the software design of the project by expanding upon the existing project.  
+*/ 
 		//draw front left leg
 		//cylinder 3,4,5 front left
 		//draw cylinder 3
@@ -699,7 +703,7 @@ int main()
 
 		//draw back left leg
 		//cylinder 12,13,14 back left
-		//draw cylinder 11
+		//draw cylinder 12
 		glGenVertexArrays(1, &cylinderVAO);
 		glBindVertexArray(cylinderVAO);
 		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 10 * sizeof(float), (void*)0);
@@ -722,7 +726,7 @@ int main()
 		C.render();
 
 
-		//draw cylinder 10
+		//draw cylinder 13
 		glGenVertexArrays(1, &cylinderVAO);
 		glBindVertexArray(cylinderVAO);
 		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 10 * sizeof(float), (void*)0);
@@ -745,7 +749,7 @@ int main()
 		C.render();
 
 
-		//draw cylinder 9
+		//draw cylinder 14
 		glGenVertexArrays(1, &cylinderVAO);
 		glBindVertexArray(cylinderVAO);
 		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 10 * sizeof(float), (void*)0);
@@ -784,6 +788,10 @@ int main()
 		glDrawElements(GL_TRIANGLES, planeNumIndices, GL_UNSIGNED_SHORT, (void*)planeIndexByteOffset);
 
 
+/* Modified 3/31/2024  
+Created the floor the desk stands on using a plane 
+This was added to enhance the software design of the project by expanding upon the existing project.  
+*/ 
 		// setup to draw plane2 floor
 		glActiveTexture(GL_TEXTURE0);
 		glBindTexture(GL_TEXTURE_2D, floor);
